@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0LhZyrmJMWslrCUg7xXb79DITEuP/z8iNY4IfmLYTfc=",
+  "Source": "WebAPIWIthRedis",
+  "BasePath": "_content/WebAPIWIthRedis",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

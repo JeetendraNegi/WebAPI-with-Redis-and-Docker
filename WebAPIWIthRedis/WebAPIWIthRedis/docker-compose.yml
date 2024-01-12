@@ -1,0 +1,17 @@
+﻿version: '3.4'
+
+services:
+  webapi:
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - redis
+
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
